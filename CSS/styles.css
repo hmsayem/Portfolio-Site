@@ -96,24 +96,24 @@ h3 {
 }
 
 .project-title {
-  font-family: 'Varta', sans-serif;
-  font-size: 1.5rem;
-  color: #2eb872;
-  font-weight: bold;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 1.2rem;
+  color: #fc624d;
+  font-weight: bold;]
 }
 
 .project-info {
-  font-size: 1.5rem;
+  font-size: 1.2rem !important;
   color: #f7f7f7;
   margin-bottom: 10px;
 }
-
 .feauture {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #f7f7f7;
 }
 
 .fab {
+  font-size: 0.9rem;
   margin-right: 5px;
 }
 
@@ -242,6 +242,111 @@ a:hover {
   .row {
     margin: 0;
   }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  .work{
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .photo {
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .carousel-item {
+    padding: 5% 17% 5% 17%;
+    text-align: left;
+  }
+
+  .carousel-item {
+    text-align: left;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .project-info {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .feauture {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .project-link {
+    text-align: left;
+  }
+
+  .contact-image img {
+    width: 35%;
+    margin-top: -6%;
+  }
+  .contact-form{
+    padding-left: 0;
+    padding-left: 0;
+  }
+
+  .get-in-touch {
+    font-size: 2.7rem;
+    padding-top: 13px;
+    padding-bottom: 15px;
+  }
+  .web{
+    margin-bottom: 3px !important;
+  }
+}
+@media (max-width: 992px) {
+
+  #title {
+    padding-bottom: 50px;
+  }
+  #skills {
+    padding: 3% 8% 1%;
+    background-color: #f7f7f7;
+  }
+
+  #portfolio {
+    padding: 3% 3%;
+  }
+  .web{
+    margin-bottom: 30px;
+  }
+  .navbar {
+    margin-bottom: 2rem;
+  }
+
+  /*
+  .navbar {
+    margin-bottom: 3rem;
+  }
+
+  .container-fluid {
+    padding: 3% 10%;
+  }
+
+  .row {
+    margin: 0;
+  }
   .card-body{
      height: auto !important;
   }
@@ -313,8 +418,7 @@ a:hover {
     font-size: 2.7rem;
     padding-top: 13px;
     padding-bottom: 15px;
-  }
-
+  } */
 
 }
 
@@ -389,9 +493,7 @@ h2:hover {
 .card-title {
   color: #155263;
 }
-.card-body{
-  height: 110px;
-}
+
 .card-img-top {
   height: 200px;
   width: auto;
