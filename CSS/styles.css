@@ -65,7 +65,7 @@ h3 {
 }
 
 #skills {
-  padding: 3% 15%;
+  padding: 3% 15% 1%;
   background-color: #f7f7f7;
 }
 
@@ -225,7 +225,7 @@ a:hover {
     padding-bottom: 50px;
   }
   #skills {
-    padding: 3% 11%;
+    padding: 3% 8% 1%;
     background-color: #f7f7f7;
   }
   #portfolio {
@@ -421,4 +421,7 @@ h2:hover {
 .txt-portfolio{
   margin-bottom: 10px;
   color: white;
+}
+.head{
+  margin-bottom: 0;
 }
