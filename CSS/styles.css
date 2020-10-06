@@ -112,7 +112,7 @@ h3 {
   color: #f7f7f7;
 }
 
-.fab {
+.icon {
   font-size: 0.9rem;
   margin-right: 5px;
 }
@@ -474,9 +474,9 @@ h2:hover {
 }
 
 .social-icon {
-  font-size: 1.3rem;
+  font-size: 1.2rem !important;
   color: #f6f6f6;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .social-icon:hover {
