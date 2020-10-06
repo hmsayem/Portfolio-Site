@@ -74,11 +74,6 @@ h3 {
   margin-bottom: 1.3rem;
 }
 
-.icon {
-  color: #519872;
-  padding-bottom: 1rem;
-}
-
 #portfolio {
   background-attachment: fixed;
   background-size: cover;
@@ -303,6 +298,10 @@ a:hover {
     width: 35%;
     margin-top: -6%;
   }
+  .contact-form{
+    padding-left: 0;
+    padding-left: 0;
+  }
 
   .get-in-touch {
     font-size: 2.7rem;
@@ -310,17 +309,11 @@ a:hover {
     padding-bottom: 15px;
   }
 
-  .icon {
-    transform: scale(.85);
-  }
-}
 
-.icon:hover {
-  animation: frame .4s ease-in-out 0.01s 1;
 }
 
 h1, .photo {
-  animation: frame .9s ease-in-out 0s 1;
+  animation: frame .5s ease-in-out 0s 1;
 }
 
 @keyframes frame {
@@ -345,23 +338,6 @@ h2:hover {
 
   100% {
     transform: scale(1);
-    color: #142850;
-  }
-}
-
-.p-a:hover {
-  animation: fp 0.7s linear 0.01s 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fp {
-  0% {
-    transform: scale(0.9);
-  }
-
-  100% {
-    transform: scale(1);
-    color: #f6f6f6;
   }
 }
 
