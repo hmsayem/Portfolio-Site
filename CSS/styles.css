@@ -218,7 +218,9 @@ a:hover {
   margin-top: 8px;
   border-radius: 0.3rem;
 }
-
+.automation{
+  margin-bottom: 0;
+}
 @media (max-width: 500px) {
   #title {
     padding-bottom: 50px;
@@ -228,7 +230,7 @@ a:hover {
     background-color: #f7f7f7;
   }
   #portfolio {
-    padding: 3% 3%;
+    padding: 3% 0% !important;
   }
 
   .navbar {
@@ -334,91 +336,6 @@ a:hover {
   .navbar {
     margin-bottom: 2rem;
   }
-
-  /*
-  .navbar {
-    margin-bottom: 3rem;
-  }
-
-  .container-fluid {
-    padding: 3% 10%;
-  }
-
-  .row {
-    margin: 0;
-  }
-  .card-body{
-     height: auto !important;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-  .work{
-    font-size: 1.2rem;
-  }
-
-  h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  .photo {
-    margin-top: 20px;
-    width: 170px;
-    height: 170px;
-  }
-
-  .carousel-item {
-    padding: 5% 17% 5% 17%;
-    text-align: left;
-  }
-
-  .carousel-item {
-    text-align: left;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  .project-title {
-    font-size: 1.6rem;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .project-info {
-    font-size: 1.1rem;
-    text-align: left;
-  }
-
-  .feauture {
-    font-size: 1rem;
-    text-align: left;
-  }
-
-  .project-link {
-    text-align: left;
-  }
-
-  .contact-image img {
-    width: 35%;
-    margin-top: -6%;
-  }
-  .contact-form{
-    padding-left: 0;
-    padding-left: 0;
-  }
-
-  .get-in-touch {
-    font-size: 2.7rem;
-    padding-top: 13px;
-    padding-bottom: 15px;
-  } */
 
 }
 
