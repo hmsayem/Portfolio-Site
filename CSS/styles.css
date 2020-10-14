@@ -179,7 +179,9 @@ a:hover {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
-
+.sudoku{
+  color: #a6e3e9;
+}
 .footer-link:hover::before {
   opacity: 1;
   -webkit-transform: scale(1.2);
